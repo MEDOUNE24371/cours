@@ -1,0 +1,77 @@
+/* Petites tablettes (481px à 768px) */
+@media (max-width: 768px) {
+    body {
+        background-color: black;
+    }
+}
+
+/* Tablettes larges / petits laptops (769px à 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    body {
+        background-color: white;
+    }
+}
+
+/* Grands écrans (≥ 1025px) */
+@media (min-width: 1025px) {
+    body {
+        background-color: red;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+
+}
+
+body {
+    background-color: white;
+}
+
+h1 {
+    color: white;
+    margin-left: 50px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: start;
+    gap: 5rem;
+    position: fixed;
+    background-color: black;
+    padding: 20px;
+    width: 100%;
+
+}
+
+.ullistes {
+    display: flex;
+    list-style: none;
+    margin-top: 10px;
+    gap: 2rem;
+    margin-left: 230px;
+}
+
+.ullistes a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+a:hover {
+    background-color: blue;
+    border-radius: 4px;
+    padding: 1px;
+}
+
+.case {
+    color: blue;
+}
+
+.p {
+    margin-top: 100px;
+}
